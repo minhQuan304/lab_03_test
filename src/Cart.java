@@ -1,3 +1,5 @@
+package Aims;
+
 import java.util.ArrayList;
 
 public class Cart {
@@ -14,6 +16,19 @@ public class Cart {
 		if (qtyOrdered == MAX_NUM_ORDERED) {
 			System.out.println("The cart is full.");
 		} else {
+			items.add(disc);
+			qtyOrdered++;
+			System.out.println("The disc has been added.");
+		}
+	}
+
+	public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+		for (int i = 0; i < dvdList.length; i++) {
+			DigitalVideoDisc disc = dvdList[i];
+			if (qtyOrdered == MAX_NUM_ORDERED) {
+				System.out.println("The cart is full.");
+				break;
+			}
 			items.add(disc);
 			qtyOrdered++;
 			System.out.println("The disc has been added.");

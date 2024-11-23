@@ -1,3 +1,5 @@
+package Aims;
+
 public class Aims {
 	public static void main(String[] args) {
 		Cart anOrder = new Cart();
@@ -11,4 +13,5 @@ public class Aims {
 		System.out.println("totalCost = " + anOrder.totalCost());
 
 	}
+
 }
