@@ -1,0 +1,2 @@
+
+Có, Java cho phép bạn tạo nhiều phương thức khởi tạo (constructor) với cùng tên nhưng khác nhau về tham số.Constructor overloading là việc có nhiều phương thức khởi tạo trong một lớp với danh sách tham số khác nhau. Mỗi constructor có thể khởi tạo một đối tượng với các bộ giá trị khởi tạo khác nhau dựa trên các tham số mà nó nhận
